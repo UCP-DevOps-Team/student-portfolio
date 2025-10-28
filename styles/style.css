@@ -81,3 +81,72 @@ footer {
 		padding: 0.5rem;
 	}
 }
+
+/* === Profile Page === */
+.profile-section {
+	text-align: center;
+}
+
+.profile-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	gap: 1.5rem;
+	margin-top: 1rem;
+}
+
+.profile-img {
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	object-fit: cover;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.profile-info {
+	max-width: 500px;
+	text-align: left;
+}
+
+.details-table {
+	width: 100%;
+	border-collapse: collapse;
+	margin-top: 1rem;
+}
+
+.details-table th,
+.details-table td {
+	border: 1px solid #ccc;
+	padding: 0.75rem;
+	text-align: left;
+}
+
+.details-table th {
+	background-color: #f0f0f0;
+	width: 30%;
+}
+
+.contact-section ul {
+	list-style: none;
+	padding: 0;
+}
+
+.contact-section li {
+	margin: 0.5rem 0;
+}
+
+.contact-section a {
+	color: #004d7a;
+	text-decoration: none;
+}
+
+.contact-section a:hover {
+	text-decoration: underline;
+}
+
+/* Highlight active nav link */
+nav a.active {
+	color: #ffcb05;
+	font-weight: bold;
+}
