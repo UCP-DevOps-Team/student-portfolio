@@ -1,30 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Showcase Hub</title>
-        <link rel="stylesheet" href="../styles/style.css" />
-    </head>
-    <body>
-        <header>
-            <h1>Showcase Hub</h1>
-            <p class="group-name">Group Name: Dev Innovators</p>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="profile.html">Profile</a></li>
-                    <li><a href="projects.html">Projects</a></li>
-                    <li><a href="skills.html">Skills</a></li>
-                    <li><a href="achievements.html">Achievements</a></li>
-                </ul>
-            </nav>
-        </header>
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Profile | Showcase Hub</title>
+	<link rel="stylesheet" href="../styles/style.css" />
+</head>
+<body>
+	<header>
+		<h1>Showcase Hub</h1>
+		<p class="group-name">Group Name: Dev Innovators</p>
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="profile.html" class="active">Profile</a></li>
+				<li><a href="projects.html">Projects</a></li>
+				<li><a href="skills.html">Skills</a></li>
+				<li><a href="achievements.html">Achievements</a></li>
+			</ul>
+		</nav>
+	</header>
 
-        <main>// TODO: Add project details here</main>
+	<main>
+		<section class="profile-section">
+			<h2>My Profile</h2>
+			<div class="profile-container">
+				<img src="../images/profile.jpg" alt="Profile Photo" class="profile-img" />
+				<div class="profile-info">
+					<h3>Aziz Subhani</h3>
+					<p><strong>Role:</strong> Frontend Developer | MERN Stack Learner</p>
+					<p>
+						Hello! I'm a passionate web developer who loves building user-friendly websites and applications.
+						My focus is on writing clean, maintainable code and creating visually appealing interfaces.
+					</p>
+				</div>
+			</div>
+		</section>
 
-        <footer>
-            <p>© 2025 Showcase Hub | Created by Group Dev Innovators</p>
-        </footer>
-    </body>
+		<section class="details-section">
+			<h2>Personal Details</h2>
+			<table class="details-table">
+				<tr>
+					<th>Full Name</th>
+					<td>Aziz Subhani</td>
+				</tr>
+				<tr>
+					<th>Email</th>
+					<td>azizsubhani@example.com</td>
+				</tr>
+				<tr>
+					<th>Phone</th>
+					<td>+92 300 1234567</td>
+				</tr>
+				<tr>
+					<th>Education</th>
+					<td>Bachelor’s in Computer Science</td>
+				</tr>
+				<tr>
+					<th>Location</th>
+					<td>Karachi, Pakistan</td>
+				</tr>
+			</table>
+		</section>
+
+		<section class="contact-section">
+			<h2>Contact Me</h2>
+			<p>Feel free to reach out for collaboration or inquiries!</p>
+			<ul>
+				<li><strong>Email:</strong> azizsubhani@example.com</li>
+				<li><strong>LinkedIn:</strong> <a href="#" target="_blank">linkedin.com/in/azizsubhani</a></li>
+				<li><strong>GitHub:</strong> <a href="#" target="_blank">github.com/azizsubhani</a></li>
+			</ul>
+		</section>
+	</main>
+
+	<footer>
+		<p>© 2025 Showcase Hub | Created by Group Dev Innovators</p>
+	</footer>
+</body>
 </html>
